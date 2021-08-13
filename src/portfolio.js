@@ -23,7 +23,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/rojandhimal",
-  // linkedin: "https://www.linkedin.com/in/",
+  linkedin: "https://www.linkedin.com/in/rojandhimal/",
   gmail: "rojandhimal1@gmail.com",
   // gitlab: "https://gitlab.com/",
   facebook: "https://www.facebook.com/rojan.tegre.5",
@@ -165,6 +165,21 @@ const workExperiences = {
         "Software ENgineering Practice",
         "Standard technology"
       ]
+    },
+    {
+      role: "Associate Software Engineer",
+      company: "Asterdio Inc.",
+      companylogo: require("./assets/images/asterdio.png"),
+      date: "February 2021- Now",
+      desc:
+        "Asterdio is a technology & design partner for the most demanding companies. With over 5 years of experience and 30+ specialists on board, Asterdio offer a complete range of custom software development solutions: web and mobile development, product design, DevOps services and quality assurance tied together with branding and identity desgin.",
+      descBullets: [
+       
+        "Advertising, Marketing & Digital Media Management",
+        "UX/UI Design & Web/Mobile Development",
+        "E-Commerce & Inventory SolutionsWeb design",
+        "IT Services & DevOps Solutions"
+      ]
     }
   ]
 };
@@ -185,6 +200,30 @@ const bigProjects = {
   title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+    {
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Tulikaa",
+      projectDesc: "Tulikaa is a big platform for artist and art lovers with Ecommerce functionality, feed chat feature recommendation and many more",
+      footerLink: [
+        {
+          name: "Tulikaa website",
+          url: "https://tulikaa.asterdio.xyz/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Restrob",
+      projectDesc: "Restrob is a online platform for restaurant management where vendor can manage multiple restaurnt in the platform. End user can find best nearest restaurnt through the platform with best deals.",
+      footerLink: [
+        // {
+        //   name: "Restrob",
+        //   url: "https://tulikaa.asterdio.xyz/"
+        // }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "HWCRN",
